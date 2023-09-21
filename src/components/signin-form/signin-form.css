@@ -1,0 +1,161 @@
+.sign-in-half-container {
+   display: flex;
+   height: 100vh;
+   align-items: center;
+   background-color: #f8faff;
+}
+
+.sign-in-form-container {
+   display: inline-block;
+   width: 50%;
+   margin-left: 25%;
+}
+
+.sign-in-form-container > .title {
+   color: #000;
+   font-family: Montserrat, sans-serif;
+   font-size: 36px;
+   margin-bottom: 5px;
+}
+
+.sign-in-form-container > .subtitle {
+   color: #000;
+   font-family: Montserrat, sans-serif;
+}
+
+.sign-in-form-container > .sign-in-with-buttons-container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+}
+
+.sign-in-with-buttons-container > .sign-in-with-buttons {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   background-color: white;
+   border: none;
+   border-radius: 8px;
+   margin: 20px 0;
+   padding: 5px 0;
+   width: 47%;
+}
+
+.sign-in-with-buttons-container > .sign-in-with-buttons:hover {
+   scale: 1.1;
+   cursor: pointer;
+}
+
+.sign-in-with-buttons > .sign-in-with-text {
+   color: #858585;
+   font-family: Montserrat;
+   font-size: 12px;
+   font-weight: 400;
+}
+
+.sign-in-form-container > .sign-in-form {
+   display: flex;
+   justify-content: start;
+   flex-direction: column;
+   width: 100%;
+   padding: 30px 10%;
+   background-color: white;
+   border: none;
+   border-radius: 12px;
+}
+
+.small-text {
+   color: #000;
+   font-family: Lato, sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+}
+
+.sign-in-form > .form-inputs {
+   color: #000;
+   font-family: Lato, sans-serif;
+   font-size: 16px;
+   padding: 8px 10px;
+   font-weight: 400;
+   border: none;
+   outline: none;
+   border-radius: 6px;
+   background-color: #eaeaea;
+}
+
+.color-blue {
+   color: #346bd4;
+   cursor: pointer;
+}
+
+.sign-in-form > .submit-button {
+   padding: 8px 0;
+   border: none;
+   outline: none;
+   border-radius: 8px;
+   background: #4285f4;
+   color: #fff;
+   text-align: center;
+   font-family: Montserrat, sans-serif;
+   font-size: 16px;
+   font-weight: 700;
+}
+
+.sign-in-form > .submit-button:hover {
+   scale: 1.07;
+   cursor: pointer;
+}
+
+.register-here-text {
+   text-align: center;
+   font-family: Lato, sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   color: #858585;
+   margin-bottom: 60px;
+}
+
+@media (max-width: 1100px) {
+   .sign-in-form-container {
+      display: inline-block;
+      width: 60%;
+      margin-left: 20%;
+   }
+}
+
+@media (max-width: 768px) {
+   .sign-in-half-container {
+      height: 70vh;
+   }
+   .sign-in-form-container {
+      display: inline-block;
+      width: 60%;
+      margin-left: 20%;
+   }
+   .sign-in-form-container > .title {
+      text-align: center;
+   }
+   .sign-in-form-container > .subtitle {
+      display: block;
+      text-align: center;
+   }
+}
+
+@media (max-width: 500px) {
+   .sign-in-half-container {
+      height: 70vh;
+   }
+   .sign-in-form-container {
+      display: inline-block;
+      width: 80%;
+      margin-left: 10%;
+   }
+   .sign-in-form-container > .title {
+      text-align: center;
+   }
+   .sign-in-form-container > .subtitle {
+      display: block;
+      text-align: center;
+   }
+}
