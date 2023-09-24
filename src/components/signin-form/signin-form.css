@@ -56,7 +56,7 @@
 
 .sign-in-form-container > .sign-in-form {
    display: flex;
-   justify-content: start;
+   justify-content: flex-start;
    flex-direction: column;
    width: 100%;
    padding: 30px 10%;
@@ -65,11 +65,16 @@
    border-radius: 12px;
 }
 
+#email-label {
+   margin-top: 0;
+}
+
 .small-text {
    color: #000;
    font-family: Lato, sans-serif;
    font-size: 16px;
    font-weight: 400;
+   margin: 20px 0;
 }
 
 .sign-in-form > .form-inputs {

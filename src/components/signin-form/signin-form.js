@@ -31,20 +31,15 @@ const SignInForm = () => {
                </button>
             </div>
             <div className="sign-in-form">
-               <label className="small-text" for="email">
+               <label className="small-text" id="email-label">
                   Email Address
                </label>
-               <br />
                <input className="form-inputs" type="email" name="email" />
-               <br />
                <label className="small-text" for="password">
                   Password
                </label>
-               <br />
                <input className="form-inputs" type="password" name="password" />
-               <br />
                <span className="small-text color-blue">Forgot password?</span>
-               <br />
                <button className="submit-button" type="submit">
                   Sign In
                </button>
