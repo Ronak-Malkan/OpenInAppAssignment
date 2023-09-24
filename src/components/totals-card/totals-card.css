@@ -82,6 +82,12 @@
       margin-bottom: 20px;
    }
 }
+@media (max-width: 425px) {
+   .totals-card {
+      width: 49%;
+      margin-bottom: 20px;
+   }
+}
 @media (max-width: 375px) {
    .totals-card {
       width: 80%;
