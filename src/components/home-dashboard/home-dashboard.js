@@ -98,7 +98,7 @@ const HomeDashboard = ({ showNavBar, setShowNavBar }) => {
                            <EmailLogo />
                         </div>
                         &nbsp;&nbsp;
-                        <a href={`mailto:${profile.email}`}>{profile.email}</a>
+                        <a href={`mailto:${profile.email}`}>Email</a>
                      </div>
                      <div>
                         <div className="logo-wrapper light-pink-bgcolor">
